@@ -1,2 +1,2 @@
 pandas
-nowflake-connector-python
+snowflake-connector-python
