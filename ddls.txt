@@ -1,0 +1,16 @@
+
+CREATE TABLE Organization
+(
+	OrganizationID INTEGER NOT NULL ,
+	OrganizationName VARCHAR(20) NULL ,
+	OrganizationDOI CHAR(18) NULL ,
+	OrganizationIdentifier CHAR(18) NULL 
+);
+
+CREATE TABLE Person
+(
+	PersonID INTEGER NOT NULL ,
+	PersonName VARCHAR(20) NULL ,
+	PersonDOB DATE NULL ,
+	PersonIdentifier VARCHAR(20) NULL 
+);
