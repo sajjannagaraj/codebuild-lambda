@@ -20,9 +20,9 @@ def lambda_handler(event, context):
         ddl_file.close()
         sql_commands = sql_file.split(';')
         
-        conn = snow.connect(user="",
-        password="",
-        account=".us-east-1",
+        conn = snow.connect(user="shasgund",
+        password="Srav_123",
+        account="dxa10182.us-east-1",
                         )
                         
         # Creating a cursor object

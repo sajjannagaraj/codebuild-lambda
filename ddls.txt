@@ -1,16 +1,17 @@
-
-CREATE TABLE Organization
+CREATE TABLE SalesLineFact1
 (
-	OrganizationID INTEGER NOT NULL ,
-	OrganizationName VARCHAR(20) NULL ,
-	OrganizationDOI CHAR(18) NULL ,
-	OrganizationIdentifier CHAR(18) NULL 
+SalesLineFactIdentifier INTEGER NOT NULL ,
+ProductSales VARCHAR(20) NULL ,
+ProductDiscountSales CHAR(18) NULL ,
+DateDimKey INTEGER NOT NULL ,
+LocationDimKey INTEGER NOT NULL ,
+ProductDimKey INTEGER NOT NULL ,
+DiscountDimKey INTEGER NOT NULL
 );
-
-CREATE TABLE Person
+CREATE TABLE Role1
 (
-	PersonID INTEGER NOT NULL ,
-	PersonName VARCHAR(20) NULL ,
-	PersonDOB DATE NULL ,
-	PersonIdentifier VARCHAR(20) NULL 
+RoleID INTEGER NOT NULL ,
+RoleName VARCHAR(20) NULL ,
+RoleDescription VARCHAR(20) NULL ,
+RoleStatus boolean NULL
 );
